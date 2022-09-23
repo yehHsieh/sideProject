@@ -1,0 +1,17 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "./helpers/utilities";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+@import './layout/mixin';
+@import './layout/utilities';
+@import './layout/base';
+@import './components/components';
+@import './animation/animation';
+@import './layout/layout';
+@import './pages/index';
+@import './pages/purchase';
+
+*{
+    // outline:1px solid black;
+}

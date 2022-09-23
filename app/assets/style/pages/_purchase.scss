@@ -1,0 +1,12 @@
+.map-size{
+    width: 343px;
+    height: 293px;
+    @include ipad{
+        width: 368px;
+        height: 314px;
+    }
+    @include laptop{
+        width: 704px;
+        height: 601px;
+    }
+}
